@@ -1,0 +1,19 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(474, 1px);
+    grid-template-rows: repeat(3, 245px);
+    row-gap: 12px;
+}
+
+@media screen and (max-width: 1190px) {
+    .gallery {
+        grid-template-columns: repeat(687, 1px);
+
+    }
+}
+@media screen and (max-width: 768px) {
+    .gallery {
+        grid-template-columns: repeat(345, 1px);
+        grid-template-rows: repeat(4, 245px);
+    }
+}

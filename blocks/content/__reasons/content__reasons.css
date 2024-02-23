@@ -1,0 +1,10 @@
+.content__reasons {
+    margin: 0 12px;
+    width: calc(100% - 24px);
+}
+
+@media screen and (max-width: 768px) {
+    .content__reasons {
+        width: 100%;
+    }
+}

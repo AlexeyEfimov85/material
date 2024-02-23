@@ -1,0 +1,9 @@
+.content__text_bold {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: #353f47;
+    position: relative;
+    margin: 0 0 12px 0;
+}

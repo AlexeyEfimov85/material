@@ -1,0 +1,5 @@
+.content__button-wrapper {
+    display: flex;
+    gap: 12px;
+    margin: 12px auto 24px;
+}

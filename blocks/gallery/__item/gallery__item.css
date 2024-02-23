@@ -1,0 +1,91 @@
+.gallery__item {
+    border-radius: 4px;
+}
+
+.gallery__item:nth-child(1) {
+    grid-column: 1 / 272;
+    grid-row: 1 / 2;
+    background-image: url('../../../images/photo_desktop_1.png');
+}
+
+.gallery__item:nth-child(2) {
+    grid-column: 284 / 474;
+    grid-row: 1 / 2;
+    background-image: url('../../../images/photo_desktop_2.png');
+}
+
+.gallery__item:nth-child(3) {
+    grid-column: 1 / 474;
+    grid-row: 2/ 3;
+    background-image: url('../../../images/photo_desktop_3.png');
+}
+
+.gallery__item:nth-child(4) {
+    grid-column: 1 / 190;
+    grid-row: 3 / 4;
+    background-image: url('../../../images/photo_desktop_4.png');
+}
+
+.gallery__item:nth-child(5) {
+    grid-column: 202 / 474;
+    grid-row: 3 / 4;
+    background-image: url('../../../images/photo_desktop_5.png');
+}
+@media screen and (max-width: 1190px) {
+    .gallery__item:nth-child(1) {
+        grid-column: 1 / 348;
+        background-image: url('../../../images/photo_tablet_1.png');
+    }
+    
+    .gallery__item:nth-child(2) {
+        grid-column: 358 / 687;
+        background-image: url('../../../images/photo_tablet_2.png');
+    }
+    
+    .gallery__item:nth-child(3) {
+        grid-column: 1 / 687;
+        background-image: url('../../../images/photo_tablet_3.png');
+    }
+    
+    .gallery__item:nth-child(4) {
+  
+        background-image: url('../../../images/photo_tablet_4.png');
+    }
+    
+    .gallery__item:nth-child(5) {
+        grid-column: 203 / 687;
+        background-image: url('../../../images/photo_tablet_5.png');
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .gallery__item:nth-child(1) {
+        grid-column: 1 / 345;
+        grid-row: 1 / 2;
+        background-image: url('../../../images/photo_mobile_1.png');
+    }
+    
+    .gallery__item:nth-child(2) {
+        grid-column: 1 / 345;
+        grid-row: 2 / 3;
+        background-image: url('../../../images/photo_mobile_2.png');
+    }
+    
+    .gallery__item:nth-child(3) {
+        grid-column: 1 / 345;
+        grid-row: 3 / 4;
+        background-image: url('../../../images/photo_mobile_3.png');
+    }
+    
+    .gallery__item:nth-child(4) {
+        grid-row: 4 / 5;
+        grid-column: 1 / 178;
+        background-image: url('../../../images/photo_mobile_4.png');
+    }
+    
+    .gallery__item:nth-child(5) {
+        grid-row: 4 / 5;
+        grid-column: 190 / 345;
+        background-image: url('../../../images/photo_mobile_5.png');
+    }
+}

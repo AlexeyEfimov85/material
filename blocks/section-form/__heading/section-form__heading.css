@@ -1,0 +1,16 @@
+.section-form__heading {
+    margin: 0 auto 37px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31px;
+    color: #353f47;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .section-form__heading {
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: -0.02em;      
+    }
+}

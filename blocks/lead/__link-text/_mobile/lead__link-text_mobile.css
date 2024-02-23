@@ -1,0 +1,9 @@
+.lead__link-text_mobile {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .lead__link-text_mobile {
+        display: inline-block;
+    }
+}

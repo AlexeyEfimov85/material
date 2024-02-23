@@ -1,0 +1,16 @@
+.content__text_decor {
+    margin-left: 25px;
+}
+
+
+.content__text_decor::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background-color: #31912D;
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    top: 5px;
+    left: -25px;
+}

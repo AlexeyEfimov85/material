@@ -1,0 +1,9 @@
+.content__item-isolation{
+    background-color: #F5F3F1;
+    border-radius: 12px;
+    width: 100%;
+    min-height: 296px;
+    margin: 0 auto;
+    padding: 24px;
+    box-sizing: border-box;
+}

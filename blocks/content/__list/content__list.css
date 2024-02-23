@@ -1,0 +1,15 @@
+.content__list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 30px;
+}
+
+@media screen and (max-width: 1190px) {
+    .content__list {
+        flex-direction: column;
+        gap: 24px;
+    }
+}
+

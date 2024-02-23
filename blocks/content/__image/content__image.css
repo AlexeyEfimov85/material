@@ -1,0 +1,9 @@
+.content__image {
+    width: 469px;
+}
+
+@media screen and (max-width: 768px) {
+    .content__image {
+        width: 342px;
+    }
+}
