@@ -36,6 +36,8 @@
  .form__field:nth-child(7) {
     grid-column: 284 / 556;
     grid-row: 3/4; 
+    display: flex;
+    justify-content: flex-end;
  }
 
  .form__field:nth-child(8) {
@@ -114,6 +116,7 @@
    .form__field:nth-child(7) {
       grid-column: 1 / 272;
       grid-row: 7/8; 
+
    }
   
    .form__field:nth-child(8) {
